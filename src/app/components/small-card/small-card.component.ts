@@ -14,6 +14,8 @@ export class SmallCardComponent implements OnInit{
   hrefCover:string = ""
   @Input()
   imgAlt:string = ""
+  @Input()
+  Id:string = "0"
 
 
   constructor() { }
