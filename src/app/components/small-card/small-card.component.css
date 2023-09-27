@@ -15,7 +15,7 @@
   border-radius: 1rem;
 
   filter: drop-shadow(2px 5px 4px rgba(0, 0, 0, 0.25));
-  transition: transform 0.5s;
+  transition: transform 0.25s;
   will-change: scale;
 }
 
@@ -30,7 +30,7 @@
 }
 
 .small-card-img:hover > img {
-  transform: scale(1.05);
+  transform: scale(1.025);
 
 }
 
